@@ -1,0 +1,472 @@
+/* This is my google font link */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+
+body {
+    width: 100%;
+
+
+}
+
+
+
+header {
+    background-color: transparent;
+     
+}
+ 
+
+.navbar {
+    background-color: #004f94;
+
+}
+
+
+
+
+/* Styling my hero-section */
+/* General styles for the hero section */
+.hero {
+    position: relative;
+    height: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    overflow: hidden;
+}
+
+.hero-content {
+    z-index: 10;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.hero-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('/dcm_images/churchh.jpg') no-repeat center center;
+    background-size: cover;
+    z-index: 1;
+    filter: blur(4px) brightness(0.2);
+}
+
+/* This is the styling of my main section */
+
+main{
+    background-color: #00396d;
+}
+
+/* This is the styling of the first section */
+
+main .firstsection{
+    background-color: burlywood;
+    width: 100%;
+    height: 90vh;
+    padding-top: 20px;
+    
+}
+
+main .firstsection .motherdiv{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+
+.firstsection .firstchild{
+    display: block;
+    padding: 10px;
+    margin: 0 auto;
+    width: 50%;
+    height: auto;
+    
+}
+
+.firstsection .secondchild{
+    display: block;
+    padding: 10px;
+    margin: 0 auto;
+    width: 50%;
+    height: auto;
+    padding-left: 15vh;
+    padding-top: 4vh;
+
+    
+}
+
+.firstsection .secondchild p{
+    font-size: 3rex;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #000;
+}
+
+.firstsection .secondchild h1{
+    font-size: 3rem;
+    color: #fe0000;
+    font-weight: 700;
+    line-height: 50px;
+    padding-bottom: 3vh;
+
+}
+
+.firstsection .secondchild h3{
+    color: #000;
+}
+
+.firstsection .firstchild img{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+/* This is the styling of my footer section */
+
+footer .socials{
+    padding-top: 10vh;
+}
+
+footer .aisec{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+
+
+}
+
+footer .aisec img{
+    width: 500px;
+}
+
+footer .aisec-text{
+    background-color: #fff;
+    border-radius: 10px;
+    width: 500px;
+    height: auto;
+    padding: 25px;
+    margin: auto 0;
+    
+}
+
+footer .aisec-text h1{
+    font-size: 7rex;
+    font-family: sans-serif;
+    font-weight: 900;
+}
+ 
+footer .aisec-text p{
+    font-size: 2.5rex;
+    font-family: sans-serif;
+    
+}
+
+.aisec .ask{
+    padding: 7px 12px;
+    border-radius: 5px;
+    border: 1px solid #00396d;
+}
+
+.aisec .ask:hover{
+    background-color: #00396d;
+    color: #fff;
+    border: 1px solid orangered;
+    transition: all 0.3s ease-in-out;
+}
+
+/* The styling of my focus area section */
+
+.focusarea{
+    background-color: #fff;
+    padding: 10vh;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+
+.focusarea .motherdiv{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+
+.focusarea .child1{
+    display: block;
+    padding: 10px;
+    margin: 0 auto;
+    width: 30%;
+    height: auto;
+    
+}
+
+.focusarea .child2{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.focusarea .child2 .first{
+    padding: 10px;
+}
+
+.focusarea .child2 .second{
+    padding: 10px;
+}
+
+.focusarea .child2 .third{
+    padding: 10px;
+}
+
+.focusarea .child2 .fourth{
+    padding: 10px;
+}
+
+.focusarea .child2 .second h4{
+    /* text-decoration: overline; */
+    border-top: 2px solid #00396d;
+    
+
+}
+
+.focusarea .child2 .third h4{
+    /* text-decoration: overline; */
+    border-top: 2px solid #00396d;
+    
+
+}
+
+.focusarea .child2 .fourth h4{
+    /* text-decoration: overline; */
+    border-top: 2px solid #00396d;
+    
+
+}
+
+
+.focusarea .child2 .first h4{
+    /* text-decoration: overline; */
+    border-top: 2px solid #00396d;
+    
+
+}
+
+/* The styling of the mission and vision section */
+
+.missionandvision{
+    background-color: #ff9900;
+    color: #000;
+    padding: 5vh;
+}
+
+.missionandvision .mandv{
+    display: block;
+    width: 100%;
+    
+}
+
+.missionandvision .mandv p{
+    font-size: 3.5rex;
+
+}
+
+.missionandvision .mandv .mission{
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+
+.missionandvision .mandv .vision{
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+
+/* This is the styling of the meet our leaders section */
+.meetourleaders{
+    width: 100%;
+    
+    padding-top: 5vh;
+    color: #ff9900;
+    
+}
+
+ .container1{
+
+    background-color: #fff;
+
+}
+
+.meetourleaders .col{
+    padding-bottom: 5vh;
+}
+
+.meetourleaders .col .name{
+    padding-top: 5vh;
+
+}
+
+.meetourleaders .col .title{
+    font-size: 3rex;
+
+}
+
+
+
+
+
+
+/* This is the styling of my footer design */
+
+footer {
+
+    background-color: #00396d;
+    padding: 20px;
+
+}
+
+/* This is the styling of my social link */
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.social-media a {
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-text p {
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    font-size: 14px;
+}
+
+ 
+
+
+/* Hide the video on small screens */
+
+  @media (max-width: 768px) {
+    
+
+    .hero-image {
+        display: block;
+    }
+
+    footer .aisec{
+        display: block;
+        
+    }
+
+    footer .aisec-text{
+        
+        width: auto;
+        height: auto;
+        
+        
+    }
+    
+    footer .aisec img{
+        width: 400px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    main .firstsection{
+        padding: 10px;
+        height: auto;
+        
+    }
+
+    main .firstsection .motherdiv{
+        display: flex;
+        
+        flex-direction: column-reverse;
+        margin: 0 auto;
+        padding: 0;
+        width: 100%;
+        height: auto;
+    }
+    
+    .firstsection .firstchild{
+        display: block;
+        padding: 10px;
+        margin: 0 auto;
+        width: 100%;
+        height: auto;
+        
+    }
+    
+    .firstsection .secondchild{
+        width: 100%;
+        padding: 10px;
+        margin: 0 auto;
+        height: auto;
+        display: block;
+    
+    }    
+
+    .firstsection .secondchild h1{
+        font-size: 2rem;
+        line-height: 30px;
+        
+    }
+
+    .firstsection .secondchild h3{
+        font-size: 3rex;
+        
+    }
+
+    .firstsection .firstchild img{
+        width: 100%;
+    }
+
+    .focusarea{
+        display: none;
+    }
+
+     
+
+
+
+
+
+     
+    
+}
+
+

@@ -1,0 +1,387 @@
+/* This is my google font link */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+
+body {
+    width: 100%;
+
+
+}
+
+
+
+header {
+    background-color: transparent;
+     
+}
+ 
+
+.navbar {
+    background-color: #004f94;
+
+}
+
+
+
+
+/* Styling my hero-section */
+/* General styles for the hero section */
+.hero {
+    position: relative;
+    height: 80vh;
+
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    overflow: hidden;
+}
+
+.hero-content {
+    z-index: 10;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.hero-content button{
+    padding: 5px 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: #cb8432;
+    color: #fff;
+}
+.hero-content button:hover{
+    background-color: #BE6600;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+     
+}
+
+
+
+
+.hero-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('/dcm_images/churchh.jpg') no-repeat center center;
+    background-size: cover;
+    z-index: 1;
+    filter: brightness(0.3);
+}
+
+/* The end of hero section and the beginning of the main section */
+
+main{
+    width: 100%;
+    
+}
+
+.mainsec{
+    background-color: #004f94;
+}
+
+.mainsec .motherdiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 50px 0; */
+    margin: 0 auto;
+}
+
+.mainsec .firstchild{
+    /* display: block; */
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+    margin: 0 auto;
+}
+
+.mainsec .firstchild h1{
+    color: #fff;
+    text-align: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+    margin: 0 auto;
+}
+
+.mainsec .firstchild .location1{
+    width: 60%;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #004f94;
+    color: #fff;
+    text-align: left;
+    
+     
+}
+
+
+
+.mainsec .firstchild .location1:hover{
+    background-color: #002f58;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+     
+}
+
+.mainsec .secondchild{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0;
+    margin: 0 auto;
+     
+}
+
+
+
+.mainsec .secondchild img{
+    width: 500;
+    margin: auto auto;
+    height: 350;
+    
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+
+/* This is the styling of my footer design */
+
+footer {
+
+    background-color: #00396d;
+    padding: 20px;
+
+}
+
+/* This is the styling of my social link */
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.social-media a {
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-text p {
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    font-size: 14px;
+}
+
+/* Styling of the forms section */
+
+.form-wrapper {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 900px;
+    width: 90%;
+}
+
+.newsletter-box {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    max-width: 400px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.newsletter-box h2 {
+    margin-bottom: 10px;
+}
+
+.newsletter-box p {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.newsletter-box input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.newsletter-box button {
+    padding: 10px;
+    background-color: #004f94;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.newsletter-box button:hover {
+    background-color: #00396d;
+}
+
+ 
+
+.contact-section {
+    background-image: url('your-image.jpg');
+    /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    max-width: 400px;
+    width: 90%;
+}
+
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-container input,
+.form-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #004f94;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-container button:hover {
+    background-color: #00396d;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Hide the video on small screens */
+
+  @media (max-width: 768px) {
+    
+
+    .hero-image {
+        display: block;
+    }
+
+    .mainsec .firstchild h1{
+        color: #fff;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    main .firstchild{
+        padding: 0;
+    }
+
+ 
+
+    
+
+    .mainsec .secondchild img{
+        /* width: 300px;
+        margin: auto auto;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); */
+
+        display: none;
+    }
+
+    .mainsec .motherdiv{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 0px;
+    }
+
+    .mainsec .firstchild .location1{
+        width: 80%;
+        border: none;
+        display: block;
+        margin: 0 auto;
+        padding: 20px;
+        text-align: left;
+         
+    }
+
+    .form-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-section {
+        padding-bottom: 10vh;
+        padding-top: 10vh;
+        height: auto;
+
+    }
+
+
+
+
+
+     
+    
+}
+
+

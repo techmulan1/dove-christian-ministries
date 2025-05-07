@@ -1,0 +1,596 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+
+body {
+    width: 100%;
+
+
+}
+
+
+
+header {
+    background-color: #004f94;
+    /* background-color: transparent; */
+     
+
+
+}
+ 
+
+.navbar {
+    background-color: #004f94;
+
+}
+
+
+
+header section {
+
+
+    --mask:
+        radial-gradient(33.54px at 50% calc(100% - 45px), #000 99%, #0000 101%) calc(50% - 60px) 0/120px 100%,
+        radial-gradient(33.54px at 50% calc(100% + 15px), #0000 99%, #000 101%) 50% calc(100% - 30px)/120px 100% repeat-x;
+    -webkit-mask: var(--mask);
+    mask: var(--mask);
+
+
+
+
+}
+
+
+
+/* Styling my hero-section */
+/* General styles for the hero section */
+.hero {
+    position: relative;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    overflow: hidden;
+}
+
+.hero-content {
+    z-index: 10;
+}
+
+.hero-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.hero video {
+    filter: brightness(0.3);
+    z-index: 1;
+
+
+
+}
+
+.hero-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('/dcm_images/carousel3.jpg') no-repeat center center;
+    background-size: cover;
+    z-index: 1;
+    filter: brightness(0.3);
+}
+
+/* The end of hero section and the beginning of the main section */
+
+main .mainsec {
+    background-color: #004f94;
+    width: 100%;
+    
+
+    
+}
+
+main .welcomeflex {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+main .welcomeheading {
+    font-size: 4rex;
+    font-weight: 500;
+    margin: 0 auto;
+    width: 50%;
+    padding: 10vh;
+
+}
+
+main .welcomeheading i {
+    color: #ffba0f;
+}
+
+main .welcomeimage {
+    text-align: center;
+    align-items: center;
+    margin: auto auto;
+
+    width: 50%;
+
+}
+
+main .welcomeimage img {
+    width: 430px;
+    border-radius: 10px;
+}
+
+/* This is the styling of a church that is relevant section */
+
+.achurchthatisrelevant .firstdiv h5 {
+    color: #ff8d09;
+    font-size: 3rex;
+}
+
+.achurchthatisrelevant .firstdiv h1 {
+    color: #fdce0c;
+    font-size: 7rex;
+}
+
+/* The styling of my call to action section */
+
+section .ctabg {
+    background-image: url(/dcm_images/logo.jpg);
+}
+
+
+/* The styling of seewhatgodcandothroughyou */
+main .seewhatgodcandothroughyou {
+    padding-top: 5vh;
+    padding-bottom: 15vh;
+    background-color: #004f94;
+
+
+
+}
+
+main .seewhatgodcandothroughyou .motherdiv {
+    padding-top: 5vh;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.motherdiv img {
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.motherdiv .childdiv {
+    align-items: center;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    padding: 20px;
+    
+}
+
+.motherdiv .childdiv:hover {
+    box-shadow: 10px 10px 20px rgba(36, 36, 36, 0.5);
+}
+
+.motherdiv .childdiv h4 {
+    color: #fdce0c;
+}
+
+.motherdiv .childdiv small {
+    color: #fff;
+    font-size: 2.5rex;
+    font-weight: 500;
+
+}
+
+
+.childdiv button {
+
+    border: 1px solid #ff8d09;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 15px;
+
+
+}
+
+.childdiv a {
+    color: #ff8d09;
+    font-weight: 500;
+    text-decoration: none;
+
+
+
+
+}
+
+/* This is the styling of my carousel */
+
+.carousel-inner img {
+    height: 80vh;
+    margin-top: 20px;
+}
+
+/* The styling of my youtube video section */
+
+main .youtubevideos {
+    padding: 5vh;
+}
+
+main .youtubevideos iframe {
+    width: 700px;
+    height: 350px;
+    border-radius: 15px;
+}
+
+main .youtubevideos .col-md-4 {
+
+    margin: auto 0;
+}
+
+main .youtubevideos .col-md-4 button {
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+
+}
+
+main .youtubevideos .col-md-3 button a {
+    text-decoration: none;
+    font-size: 3rex;
+
+}
+
+/* Styling of the forms section */
+
+.form-wrapper {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 900px;
+    width: 90%;
+}
+
+.newsletter-box {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    max-width: 400px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.newsletter-box h2 {
+    margin-bottom: 10px;
+}
+
+.newsletter-box p {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.newsletter-box input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.newsletter-box button {
+    padding: 10px;
+    background-color: #004f94;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.newsletter-box button:hover {
+    background-color: #00396d;
+}
+
+ 
+
+.contact-section {
+    background-image: url('your-image.jpg');
+    /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    max-width: 400px;
+    width: 90%;
+}
+
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-container input,
+.form-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #004f94;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-container button:hover {
+    background-color: #00396d;
+}
+
+/* This is the styling of my book gallery */
+
+.book-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.book-card img {
+    width: 300px;
+    height: auto;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.book-card img:hover {
+    transform: scale(1.05);
+}
+
+.book-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 999;
+    justify-content: center;
+    align-items: center;
+}
+
+.book-modal-content {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 500px;
+    width: 90%;
+    text-align: center;
+    position: relative;
+}
+
+.book-modal-content img {
+    max-width: 100px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.buy-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #004f94;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.buy-btn:hover {
+    background-color: #00396d;
+}
+
+/* This is the styling of my footer design */
+
+footer {
+
+    background-color: #00396d;
+    padding: 20px;
+
+}
+
+/* This is the styling of my social link */
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.social-media a {
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-text p {
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    font-size: 14px;
+}
+
+
+ 
+
+
+
+
+/* Hide the video on small screens */
+@media (max-width: 768px) {
+    .hero-video {
+        display: none;
+    }
+
+    .hero-image {
+        display: block;
+    }
+
+
+    main .welcomeflex {
+        display: block;
+    }
+
+    main .welcomeheading {
+        padding: 0;
+        margin: 0 auto;
+        text-align: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .welcomeheading em {
+        font-size: 2rex;
+        padding: 0;
+
+
+    }
+
+    main .welcomeimage {
+        width: 100%;
+    }
+
+    main .welcomeimage img {
+        display: none;
+
+    }
+
+    main .seewhatgodcandothroughyou .motherdiv {
+        display: block;
+        padding: auto;
+        width: 100%;
+    }
+
+    main .seewhatgodcandothroughyou .childdiv {
+        background-color: #004f94;
+        margin-bottom: 10px;
+        border-radius: 10px;
+    }
+
+    main .seewhatgodcandothroughyou {
+        background-color: #fff;
+    }
+
+    .carousel-inner img {
+        height: 100%;
+    }
+
+    .motherdiv .childdiv {
+
+        height: 70vh;
+    }
+
+    main .youtubevideos .col-md-4 {
+
+        display: none;
+    }
+
+    main .youtubevideos iframe {
+        width: 300px;
+        height: 315;
+        border-radius: 15px;
+        margin: 0 auto;
+        text-align: center;
+        align-items: center;
+
+    }
+
+    .book-header {
+        padding-top: 10vh;
+         
+    }
+
+    
+
+    .form-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-section {
+        padding-bottom: 10vh;
+        padding-top: 10vh;
+        height: auto;
+
+    }
+
+
+
+
+}
+
+/* Show the video on large screens */
+@media (min-width: 769px) {
+    .hero-image {
+        display: none;
+    }
+
+    .hero-video {
+        display: block;
+
+
+    }
+
+
+}

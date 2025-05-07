@@ -1,0 +1,261 @@
+/* This is my google font link */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+
+body {
+    width: 100%;
+
+
+}
+
+
+
+header {
+    background-color: transparent;
+     
+}
+ 
+
+.navbar {
+    background-color: #004f94;
+
+}
+
+
+
+
+/* Styling my hero-section */
+/* General styles for the hero section */
+.hero {
+    position: relative;
+    height: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    overflow: hidden;
+}
+
+.hero-content {
+    z-index: 10;
+    font-family: 'Montserrat', sans-serif;
+
+
+
+}
+
+/* The styling of my youtube video section */
+
+header .youtubevideos {
+    padding: 5vh;
+}
+
+header .youtubevideos img {
+    width: 90%;
+    height: 90%;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, white 0px 15px 12px;}
+
+header .youtubevideos .col-md-4 {
+
+    margin: auto 0;
+}
+
+header .youtubevideos .col-md-4 button {
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+
+}
+
+header .youtubevideos .col-md-4 button a {
+    text-decoration: none;
+    font-size: 3rex;
+
+}
+
+header .youtubevideos .col-md-4 button a:hover{
+    text-decoration: none;
+    font-size: 3rex;
+    background-color: #004f94;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    /* animation-name: inherit; */
+
+}
+
+
+
+     
+ 
+
+
+ 
+
+
+
+
+.hero-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('/dcm_images/churchh.jpg') no-repeat center center;
+    background-size: cover;
+    z-index: 1;
+    filter: blur(4px) brightness(0.2);
+}
+
+/* This is the styling of my main section */
+
+main{
+    background-color: #00396d;
+}
+
+main .aisec{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+
+main .aisec img{
+    width: 500px;
+}
+
+main .aisec-text{
+    background-color: #fff;
+    border-radius: 10px;
+    width: 500px;
+    height: auto;
+    padding: 25px;
+    margin: auto 0;
+    
+}
+
+main .aisec-text h1{
+    font-size: 7rex;
+    font-family: sans-serif;
+    font-weight: 900;
+}
+ 
+main .aisec-text p{
+    font-size: 2.5rex;
+    font-family: sans-serif;
+    
+}
+
+.aisec .ask{
+    padding: 7px 12px;
+    border-radius: 5px;
+    border: 1px solid #00396d;
+}
+
+.aisec .ask:hover{
+    background-color: #00396d;
+    color: #fff;
+    border: 1px solid orangered;
+    transition: all 0.3s ease-in-out;
+}
+
+
+/* This is the styling of my footer design */
+
+footer {
+
+    background-color: #00396d;
+    padding: 20px;
+
+}
+
+/* This is the styling of my social link */
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.social-media a {
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-text p {
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    font-size: 14px;
+}
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+/* Hide the video on small screens */
+
+  @media (max-width: 768px) {
+    
+
+    .hero-image {
+        display: block;
+    }
+
+    main .aisec{
+        display: block;
+        
+    }
+
+    main .aisec-text{
+        
+        width: auto;
+        height: auto;
+        
+        
+    }
+    
+    main .aisec img{
+        width: 400px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+    }
+
+     
+
+
+
+
+
+     
+    
+}
+
+

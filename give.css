@@ -1,0 +1,188 @@
+/* This is my google font link */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+
+body {
+    width: 100%;
+
+
+}
+
+
+
+header {
+    background-color: transparent;
+     
+}
+ 
+
+.navbar {
+    background-color: #004f94;
+
+}
+
+
+
+
+/* Styling my hero-section */
+/* General styles for the hero section */
+.hero {
+    position: relative;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    overflow: hidden;
+}
+
+.hero-content {
+    z-index: 10;
+    font-family: 'Montserrat', sans-serif;
+
+
+
+}
+
+.hero-content div{
+    padding: 10px 30px;
+}
+
+.hero-content .text{
+    color: #000;
+}
+
+     
+ 
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #00396d;
+}
+
+form .ptext{
+    display: flex;
+    justify-content: left;
+    color: #000;
+}
+
+form button{
+    
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #004f94;
+    color: #fff;
+    text-align: center;
+    
+     
+}
+
+
+
+form button:hover{
+    background-color: #002f58;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+     
+}
+
+ 
+
+
+
+
+.hero-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('/dcm_images/churchh.jpg') no-repeat center center;
+    background-size: cover;
+    z-index: 1;
+    filter: brightness(0.3);
+}
+
+ 
+
+
+/* This is the styling of my footer design */
+
+footer {
+
+    background-color: #00396d;
+    padding: 20px;
+
+}
+
+/* This is the styling of my social link */
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.social-media a {
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-text p {
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    font-size: 14px;
+}
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+/* Hide the video on small screens */
+
+  @media (max-width: 768px) {
+    
+
+    .hero-image {
+        display: block;
+    }
+
+     
+
+
+
+
+
+     
+    
+}
+
+
