@@ -18,11 +18,11 @@ body {
 header {
     background-color: #004f94;
     /* background-color: transparent; */
-     
+
 
 
 }
- 
+
 
 .navbar {
     background-color: #004f94;
@@ -100,9 +100,9 @@ header section {
 main .mainsec {
     background-color: #004f94;
     width: 100%;
-    
 
-    
+
+
 }
 
 main .welcomeflex {
@@ -162,7 +162,7 @@ section .ctabg {
 /* The styling of seewhatgodcandothroughyou */
 main .seewhatgodcandothroughyou {
     padding-top: 5vh;
-    padding-bottom: 15vh;
+    padding-bottom: 5vh;
     background-color: #004f94;
 
 
@@ -186,7 +186,8 @@ main .seewhatgodcandothroughyou .motherdiv {
     text-align: center;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     padding: 20px;
-    
+    height: auto;
+
 }
 
 .motherdiv .childdiv:hover {
@@ -315,7 +316,7 @@ main .youtubevideos .col-md-3 button a {
     background-color: #00396d;
 }
 
- 
+
 
 .contact-section {
     background-image: url('your-image.jpg');
@@ -472,7 +473,7 @@ footer {
 }
 
 
- 
+
 
 
 
@@ -538,30 +539,48 @@ footer {
 
     .motherdiv .childdiv {
 
-        height: 70vh;
+        height: auto;
     }
 
     main .youtubevideos .col-md-4 {
-
+        padding: 0;
         display: none;
     }
 
+    main .youtubevideos .col-md-8{
+        
+        margin: auto auto;
+        width: 100%;
+    }
+
     main .youtubevideos iframe {
-        width: 300px;
-        height: 315;
+        width: 100%;
+        height: 350;
         border-radius: 15px;
-        margin: 0 auto;
-        text-align: center;
-        align-items: center;
+        
+        
 
     }
 
     .book-header {
         padding-top: 10vh;
-         
+
+    }
+
+    .book-gallery{
+        display: block;
+        width: 100%;
+        padding: 10px;
+        margin: auto;
+        gap: 0;
+        text-align: center;
+        align-items: center;
+
     }
 
     
+
+
 
     .form-wrapper {
         flex-direction: column;
@@ -592,5 +611,54 @@ footer {
 
     }
 
+    
+
+
+}
+
+@media (max-width: 1000px) {
+
+    main .welcomeflex{
+        width: 100%;
+    }
+    main .welcomeheading em{
+        font-size: 2rex;
+        padding: 0;
+        line-height: 5px;
+        font-weight: 300;
+    }
+
+    .welcomeimage img{
+        display: block;
+        max-width: 380px;
+    }
+
+    main .youtubevideos .row{
+        display: block;
+    }
+
+    main .youtubevideos .row .col-md-4{
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .book-gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);  /* This will make it show two items per row */
+    gap: 20px;
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+
+}
+
+    .contact-section {
+    
+    height: auto;
+    
+}
 
 }
