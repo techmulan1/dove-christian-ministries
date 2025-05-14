@@ -580,6 +580,8 @@ footer {
 
     
 
+    
+
 
 
     .form-wrapper {
@@ -646,14 +648,11 @@ footer {
 
     .book-gallery {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);  /* This will make it show two items per row */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));  /* Adjust the min value to fit two items */
     gap: 20px;
     padding: 20px;
-    margin: 0 auto;
-    text-align: center;
-    align-items: center;
-
 }
+
 
     .contact-section {
     
